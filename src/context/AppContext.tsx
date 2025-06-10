@@ -51,7 +51,7 @@ const defaultFamilyMembers: FamilyMember[] = [
     id: '4', 
     name: 'Dinesh', 
     role: 'child',
-    password: 'emma123',
+    password: 'dinesh123',
     preferences: ['Sweet foods', 'Fun activities'],
     mealPreferences: ['Mild spice', 'Sweet dishes', 'Fruits', 'No bitter vegetables'],
     activityPreferences: ['Soccer', 'Dancing', 'Art & Crafts', 'Swimming']
@@ -60,7 +60,7 @@ const defaultFamilyMembers: FamilyMember[] = [
     id: '5', 
     name: 'Pragnesh', 
     role: 'child',
-    password: 'liam123',
+    password: 'pragnesh123',
     preferences: ['Music', 'Outdoor games'],
     mealPreferences: ['Medium spice', 'Rice dishes', 'Snacks', 'No green vegetables'],
     activityPreferences: ['Music lessons', 'Cricket', 'Video games', 'Reading']
@@ -76,8 +76,8 @@ const defaultMealPlans: MealPlan[] = [
     dinner: 'Roti with paneer curry',
     snacks: ['Samosa', 'Chai'],
     childPreferences: {
-      'Emma': ['Sweet dishes', 'Mild spice'],
-      'Liam': ['Rice dishes', 'Medium spice']
+      'Dinesh': ['Sweet dishes', 'Mild spice'],
+      'Pragnesh': ['Rice dishes', 'Medium spice']
     }
   },
   {
@@ -88,8 +88,8 @@ const defaultMealPlans: MealPlan[] = [
     dinner: 'Chapati with aloo gobi',
     snacks: ['Pakora', 'Lassi'],
     childPreferences: {
-      'Emma': ['Sweet dishes', 'Fruits'],
-      'Liam': ['Rice dishes', 'Snacks']
+      'Dinesh': ['Sweet dishes', 'Fruits'],
+      'Pragnesh': ['Rice dishes', 'Snacks']
     }
   },
 ];
@@ -97,37 +97,37 @@ const defaultMealPlans: MealPlan[] = [
 const defaultActivities: Activity[] = [
   {
     id: '1',
-    childName: 'Emma',
+    childName: 'Dinesh',
     title: 'Soccer Practice',
     type: 'soccer',
     date: '2024-12-20',
     time: '16:00',
     location: 'Community Sports Center',
-    driver: 'Jordan (Driver)',
+    driver: 'Jayesh (Driver)',
     notes: 'Bring water bottle and cleats',
     matchesPreferences: true
   },
   {
     id: '2',
-    childName: 'Liam',
+    childName: 'Pragnesh',
     title: 'Piano Lesson',
     type: 'music',
     date: '2024-12-21',
     time: '15:30',
     location: 'Music Academy',
-    driver: 'Jordan (Driver)',
+    driver: 'Jayesh (Driver)',
     notes: 'Practice scales before lesson',
     matchesPreferences: true
   },
   {
     id: '3',
-    childName: 'Emma',
+    childName: 'Dinesh',
     title: 'Art Class',
     type: 'other',
     date: '2024-12-22',
     time: '14:00',
     location: 'Community Center',
-    driver: 'Jordan (Driver)',
+    driver: 'Jayesh (Driver)',
     notes: 'Bring art supplies',
     matchesPreferences: true
   }
